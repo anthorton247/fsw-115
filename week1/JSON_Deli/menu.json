@@ -1,0 +1,94 @@
+{
+    "menu": [
+        {
+            "appetizers": [
+                {
+                    "mozzarellaStick": [
+                        {
+                            "description": "Deep fried mozzarella served with a side of marinara",
+                            "ingredients": ["mozzarella", "flour", "oil", "tomato", "thyme"]
+                        }
+                    ]
+                },
+                {
+                    "bonelessWings": [
+                        {
+                            "description": "Chicken poppers fried and tossed in homemade buffalo sauce and serverd with celery or carrots, and bleu cheese or ranch",
+                            "ingredients": ["chicken", "flour", "egg", "oil", "buffaloSauce","celery", "carrot", "bleuCheese", "ranch"]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "coldSandwiches": [
+                {
+                    "turkeyClub": [
+                        {
+                            "description": "Home-style turkey sandwich with some twitst.",
+                            "ingredients": ["turkey", "sourDough", "dijonMustard", "tomato", "romaineLettuce", "muensterCheese", "pepperJackCheese"]
+                        }
+                    ]
+                },
+                {
+                    "italianGodFather": [
+                        {
+                            "description": "New take on a classic sandwich the Italian God Father will be granting your mouths all the favors it wants.",
+                            "ingredients": ["salami", "pepperoni", "ham", "capicola", "mortadella", "oliveOil", "marinara", "tomato", "romaineLettuce", "oregano", "mozzarella", "provolone", "italianBread"]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "hotSandwiches": [
+                {
+                    "buffaloBLT": [
+                        {
+                            "description": "BLT with a nice drizzle of homemade buffalo sauce and a fried egg. Served after panini pressed into perfection",
+                            "ingredients": ["mozzarella", "pepperJackCheese", "turkeyBacon", "oliveOil", "tomato", "romaineLettuce", "egg", "buffaloSauce", "whiteBread" ]
+                        }
+                    ]
+                },
+                {
+                    "spicyChickenMelt": [
+                        {
+                            "description": "Chicken breast served in hot hot sandwich ready to blow you away",
+                            "ingredients": ["chicken", "ghostPepperSauce", "eggFried", "pepperJackCheese", "sriracha","romaineLettuce", "tomato", "onion", "bleuCheese", "ciabatta"]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "desserts": [
+                {
+                    "tiramisu": [
+                        {
+                            "description": "classic Italian dessert that melts in your mouth.",
+                            "ingredients": ["expresso", "grandMarnier", "ladyfingers", "mascarpone", "egg", "sugar", "heavyCream", "vanilla", "cocoa"]
+                        }
+                    ]
+                },
+                {
+                    "mangoCheeseCake": [
+                        {
+                            "description": "The tart that is oh so sweet. This mango cheesecake with coconut crust will have you smiling from ear to ear with each bite.",
+                            "ingredients": ["mangp", "flour", "egg", "vanilla", "heavyCream","coconut", "sugar", "butter", "grahamCracker"]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "drinks": [
+                {
+                    "soda": ["blackCherry", "orangeCream", "rootBeer", "vanilla"]
+                },
+                {
+                    "jucie": ["orange", "apple", "gatorade", "lemonade"]
+                }
+            ]
+        }
+    ]
+}
