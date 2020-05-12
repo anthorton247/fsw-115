@@ -1,0 +1,64 @@
+@media only screen and (min-device-width: 700px) and (max-device-width: 2000px) {
+    body {
+        text-align: center;
+        background-image: url(./3a3c564aa715450a4b4448eed8df3963.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        color: white;
+        font-weight: bold;
+    }
+
+    li {
+        font-size: 70px;
+        -webkit-text-stroke-width: 2px;
+        -webkit-text-stroke-color: red;
+    }
+
+    button {
+        font-size: 40px;
+    }
+
+    footer {
+        position: absolute;
+        top: 0;
+        left: 0;
+        font-size: 30px;
+        font-weight: bold;
+    }
+}
+
+@media only screen and (max-device-width: 640px) {
+    body {
+        text-align: center;
+        background-image: url(./ghibliemobile.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        color: white;
+        font-weight: bold;
+    }
+
+    main {
+        position: relative;
+        top: 25px;
+        height: 100vh;
+        margin: 15px;
+    }
+
+    li {
+        font-size: 45px;
+        -webkit-text-stroke-width: 2px;
+        -webkit-text-stroke-color: red;
+    }
+
+    button {
+        font-size: 40px;
+    }
+
+    footer {
+        font-size: 30px;
+        font-weight: bold;
+    }
+
+}
