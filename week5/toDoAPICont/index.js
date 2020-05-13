@@ -30,7 +30,7 @@ axios.get("https://api.vschool.io/anthonyh/todo/")
             document.getElementById(i).appendChild(input)
             const h3 = document.createElement('h3')
             h3.id = response.data[i].completed
-            h3.textContent = response.data[i].title
+            h3.textContent = i + 1 + ". " + response.data[i].title
             document.getElementById(i).appendChild(h3)
             const p = document.createElement("p")
             p.textContent = response.data[i].description
