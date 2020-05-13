@@ -84,7 +84,7 @@ axios.get("https://api.vschool.io/anthonyh/todo/")
         })
     .catch(error => console.log(error))
 
-
+console.log(idArray)
 const toDoEdit = document.toDoEdit
 
 toDoEdit.addEventListener("submit", function(event){
@@ -93,9 +93,10 @@ toDoEdit.addEventListener("submit", function(event){
     const editToDo = {
         title: toDoEdit.title.value,
         description: toDoEdit.description.value,
-        completed: toDoEdit.price.value 
+        price: toDoEdit.price.value 
     }
     const url = "https://api.vschool.io/anthonyh/todo/" + id
+    console.log(id)
     axios.put(url, editToDo)
         .then(response => console.log(response.data))
         .catch(error => console.log(error))
