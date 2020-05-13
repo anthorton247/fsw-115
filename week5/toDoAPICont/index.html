@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>ToDo</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <header>
+            <h1>To Do List</h1>
+        </header>
+        <div>
+            <form name="toDo">
+                <h2>Create new To Do</h2>
+                <input placeholder="Title" name="title" type="text"><br>
+                <input placeholder=" Description" name="description" type="text"><br>
+                <input placeholder="Price" name="price" type="number" min="0"><br>
+                <button>Submit</button>
+            </form>
+            <form name="toDoEdit">
+                <h2>Edit To Do</h2>
+                <input placeholder="Post Number" name="id" type="number" min="1"><br>
+                <input placeholder="Title" name="title" type="text"><br>
+                <input placeholder="Description" name="description" type="text"><br>
+                <input placeholder="Price" name="price" type="number" min="0"><br>
+                <button>Submit</button>
+            </form>
+        </div>
+        <main id="main"></main>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.19.0/axios.js"></script>
+        <script src="./index.js"></script>
+    </body>
+    
+</html>

@@ -1,0 +1,87 @@
+body {
+    text-align: center;
+    background-color: white;
+}
+
+header {
+    text-shadow: 2px 2px 4px red,
+                 2px 2px 0 red,
+                 3px 3px red;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 100px;
+    mix-blend-mode: multiply;
+}
+
+
+
+div > form > input {
+    margin: 0;
+    width: 50vw;
+    height: 10vh;
+    text-align: center;
+}
+
+h1 {
+    font-weight: bolder;
+    font-size: 100px;
+}
+
+button {
+    width: 51vw;
+}
+
+main {
+    text-align: start;
+    font-size: 30px;
+}
+
+main > form {
+    display: grid;
+    grid-template-columns: 30px 1fr 1fr 1fr;
+    align-items: center;
+    justify-items: center;
+}
+main > form > h3 {
+    grid-column: 2 / span 2;
+    display: inline;
+    margin: 0;
+    text-shadow: 2px 2px 4px red,
+                 2px 2px 0 red,
+                 3px 3px red;
+}
+
+main > form > p {
+    grid-column: 2 / span 2;
+    margin: 0;
+}
+
+main > form > input {
+    grid-column: 1 / span 1;
+    grid-row: 1 / span 3;
+}
+
+main > form > button {
+    height: 50px;
+    width: 100px;
+    grid-column: 4 / span 1;
+    grid-row: 1 / span 3;
+    border: none;
+    background-color: red;
+    transition: ease-in 2s;
+}
+
+main > form > button:hover {
+    width: 120px;
+    height: 70px;
+}
+
+main > form > img {
+    grid-column: 1 / span 3;
+}
