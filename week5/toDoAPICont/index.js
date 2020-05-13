@@ -93,7 +93,7 @@ toDoEdit.addEventListener("submit", function(event){
     const editToDo = {
         title: toDoEdit.title.value,
         description: toDoEdit.description.value,
-        completed: toDoEdit.completed.value 
+        completed: toDoEdit.price.value 
     }
     const url = "https://api.vschool.io/anthonyh/todo/" + id
     axios.put(url, editToDo)
